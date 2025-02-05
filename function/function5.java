@@ -15,16 +15,16 @@ public class function5 {
       int function7 =  factorial(n);
       int function8 =  factorial(r);
       int combination = factorial(n-r);
-      int c = function7/function8*combination;
+      int c = function7/(function8*combination);
       return c;
    }
    public static void main(String args[])
 
    {
       Scanner sc = new Scanner(System.in);
-      int a = sc.nextInt();
-      int b = sc.nextInt();
-      int u= bio(a,b);
-      System.out.print("binomail funtion" +u);
+      // int a = sc.nextInt();
+      // int b = sc.nextInt();
+      int u= bio(5,2);
+      System.out.print("binomail funtion  = "  +u);
    }
 }
