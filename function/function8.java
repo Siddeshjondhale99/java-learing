@@ -16,7 +16,7 @@ public class function8 {
    {
       for(int i = 2 ; i <= a; i++)
       {
-         if(isprime(a)
+         if(isprime( a))
          {
             System.out.print(i + " ");
          }
@@ -26,9 +26,9 @@ public class function8 {
    }
    public static void main(String args[])
    {
-      Scanner sc = new Scanner(System.in);
-      int n = sc.nextInt();
-      System.out.print(primerang)
+      // Scanner sc = new Scanner(System.in);
+      // int n = sc.nextInt();
+      System.out.println(primerange(10));
       
 
    }
